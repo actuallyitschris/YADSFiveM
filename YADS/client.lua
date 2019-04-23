@@ -4,10 +4,7 @@
 
 -- Disable Autospawn
 
-AddEventHandler('onClientMapStart', function()
-	exports.spawnmanager:spawnPlayer()
-	exports.spawnmanager:setAutoSpawn(false)
-end)
+exports.spawnmanager:setAutoSpawn(false)
 
 -- Revive
 
