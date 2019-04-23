@@ -4,7 +4,13 @@
 
 -- Disable Autospawn
 
-exports.spawnmanager:setAutoSpawn(false)
+AddEventHandler('onClientMapStart', function()
+    Citizen.Trace("YADS: Disabling autospawn...")
+    exports.spawnmanager:spawnPlayer() -- Ensure player spawns into server.
+    Citizen.Wait(2500)
+    exports.spawnmanager:setAutoSpawn(false)
+    Citizen.Trace("YADS: Autospawn disabled!")
+end)
 
 -- Revive
 
