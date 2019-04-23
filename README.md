@@ -2,8 +2,8 @@
 Yet Another Death Script for FiveM.
 
 # Functionality
-Upon dying you are promted with a death notification (Img. 1)
-Thn you may press E, which respawns you at your current position or R, whitch respawns you at one of the hospitals.
+Upon dying you are prompted with a death notification (Img. 1)
+Then you may press E, which respawns you at your current position or R, whitch respawns you at one of the hospitals.
 
 ![Image 1](https://cdn.discordapp.com/attachments/547812834491498496/570261112881414155/unknown.png)
 
