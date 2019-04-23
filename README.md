@@ -22,6 +22,6 @@ start hardcap
 start rconlog
 start scoreboard
 start playernames
-start RPdeath
+start YADS
 ```
 Woho, you are done. It should work now!
